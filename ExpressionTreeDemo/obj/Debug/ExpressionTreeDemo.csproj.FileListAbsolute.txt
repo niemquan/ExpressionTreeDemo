@@ -1,0 +1,7 @@
+c:\users\jnie\Source\Repos\ExpressionTreeDemo\ExpressionTreeDemo\bin\Debug\ExpressionTreeDemo.exe.config
+c:\users\jnie\Source\Repos\ExpressionTreeDemo\ExpressionTreeDemo\bin\Debug\ExpressionTreeDemo.exe
+c:\users\jnie\Source\Repos\ExpressionTreeDemo\ExpressionTreeDemo\bin\Debug\ExpressionTreeDemo.pdb
+c:\users\jnie\Source\Repos\ExpressionTreeDemo\ExpressionTreeDemo\obj\Debug\ExpressionTreeDemo.csprojResolveAssemblyReference.cache
+c:\users\jnie\Source\Repos\ExpressionTreeDemo\ExpressionTreeDemo\obj\Debug\ExpressionTreeDemo.csproj.CoreCompileInputs.cache
+c:\users\jnie\Source\Repos\ExpressionTreeDemo\ExpressionTreeDemo\obj\Debug\ExpressionTreeDemo.exe
+c:\users\jnie\Source\Repos\ExpressionTreeDemo\ExpressionTreeDemo\obj\Debug\ExpressionTreeDemo.pdb
