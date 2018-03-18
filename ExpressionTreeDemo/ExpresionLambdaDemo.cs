@@ -22,7 +22,6 @@ namespace ExpressionTreeDemo
             var result = lambdaExp.Compile()(10);
 
             Console.WriteLine("Num Less Five Demo, the parameter is 10 "+result);
-
         }
 
         public static void NumLessFiveDemoInitParameter()
@@ -76,9 +75,23 @@ namespace ExpressionTreeDemo
 
             Console.WriteLine("Decomposed expression: {0} => {1} {2} {3}",
                 parm.Name,left.Name,operation.NodeType,right.Value);
+        }
 
+        //If an expression tree does not represent a lambda expression,
+        //you can create a new lambda expression that has the original expression tree as its body, 
+        //by calling the Lambda<TDelegate>(Expression, IEnumerable<ParameterExpression>) method. 
+        //Then, you can execute the lambda expression as described earlier in this section.
+        public static void ExecuteExpresionTree()
+        {
+            BinaryExpression binaryExpr = Expression.Power(Expression.Constant(2D), Expression.Constant(3D));
 
+            Expression<Func<double>> lambdaExpr = Expression.Lambda<Func<double>>(binaryExpr);
 
+            Func<double> compliedExpression = lambdaExpr.Compile();
+
+            double result = compliedExpression();
+
+            Console.WriteLine("result: " + result);
         }
     }
 }

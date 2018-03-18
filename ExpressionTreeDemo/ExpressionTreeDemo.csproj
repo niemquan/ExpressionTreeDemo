@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AndAlseModifer.cs" />
+    <Compile Include="DynamicQueries.cs" />
     <Compile Include="ExpresionLambdaDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
